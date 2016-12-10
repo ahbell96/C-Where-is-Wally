@@ -1,18 +1,15 @@
 # C++-Where-is-Wally
 
+Creating a where is wally program, where i have a cluttered image and the reference image(wally). through the use of the reference image, i have to find or find the nearest to wally via the cluttered image.
 
-SSD (Sum of Square Difference)
-Within the SSD (Passing in two matrix's), Matrix1 (Wally image) and Matrix 2 (Cluttered Scene.).
-I am wanting to find the difference of the two.
-I have put them both within two for loops (matrix based off a 2D array), one loop for the Rows, one for the columns.
-I then find the SSD Score, which is the difference times by itself. (D * D).
-It is then pushed back into a vector, for the SSDscore is displayed within.
+to do this, I have do to the following:
 
-I am unsure if it is correct, or false, with the values that i am getting out, as they are quite large values, compared to those within the wally image and the cluttered image themselves.
+I have created a matrix, which is passed rows and columns, (dimensions of the images).
+i have created instances of the images.
 
-I have a feeling that there is something wrong with the values that i am passing when finding the difference, but unsure.
+I have to work out the sum of square difference, and then from that, when a score has been calculated, use NNS(nearest neighbour search) in order to find wally, or the nearest values close to wally.
 
-any help would be appreciated!
+Please feel free to look at my code and give me any advice and can help me improve it.
 
-thanks in advance
+thanks
 
